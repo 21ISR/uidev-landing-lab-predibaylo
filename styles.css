@@ -12,6 +12,7 @@ header {
 body {
     background: #666666;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 h1 {
