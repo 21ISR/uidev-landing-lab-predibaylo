@@ -18,9 +18,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 section {
     margin-top: 1rem;
+
 }
 
 h1 {
@@ -38,17 +40,18 @@ span {
     display: flex;
     display: grid;
     grid-template-columns: repeat(3, 33.3%);
+    
 }
 
-.header-h1 {
+.header_h1 {
     display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ffffff;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0.5px black;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4rem;
+    font-size: 4.5rem;
     grid-column: 2;
     margin: 0 auto;
     max-height: 12rem;
@@ -58,7 +61,7 @@ span {
     max-height: 65%;
     grid-column: 1;
 }
-.header-span {
+.header_span {
     display: flex;
     margin:0 auto;
     grid-column: 3;
@@ -67,17 +70,48 @@ span {
     max-height: 12rem;
 }
 
-.header-span-a {
+.header_span_a {
     flex-direction: column;
     padding: 0 2rem;
     font-style: italic;
 }
 
-.hero-section {
-    min-width: 98%;
+.hero_section {
     background: var(--color-bg);
+    min-width: 98%;
 }
 
-.hero-section-span {
+.hero_section_span {
     max-height: 50rem;
 }
+
+
+.card_section {
+    background: var(--color-bg);
+    min-width: 98%;
+}
+
+.card_section_h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_section_div {
+    display: flex;
+}
+
+.card_section_card {
+    border-radius: 3%;
+    min-width: 19%;
+    background-color: red;
+    margin: 0 auto;
+
+}
+
+.card_section_card_h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
