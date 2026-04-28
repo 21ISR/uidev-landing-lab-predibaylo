@@ -57,6 +57,7 @@ span {
     max-height: 12rem;
 }
 .header-img {
+    margin-top: 0.8rem;
     margin-left: 2rem;
     max-height: 65%;
     grid-column: 1;
@@ -84,8 +85,13 @@ span {
 .hero_section_span {
     max-height: 50rem;
 }
+.hero_section_h2 {
+    margin-left: 1rem;
+}
 
-
+.hero_section_p {
+    margin-left: 1rem;
+}
 .card_section {
     background: var(--color-bg);
     min-width: 98%;
@@ -106,10 +112,22 @@ span {
     min-width: 19%;
     background-color: red;
     margin: 0 auto;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
 
 }
 
 .card_section_card_h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employees_section {
+    min-width: 98%;
+    background: var(--color-bg);
+}
+
+.employees_section_h2 {
     display: flex;
     justify-content: center;
     align-items: center;
