@@ -26,12 +26,18 @@ section {
 }
 
 h1 {
-    
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#ffffff;
+    -webkit-text-stroke: 0.3px black;
+    font-size: 1.9rem;
 
 }
+p {
 
+}
 span {
 
 }
@@ -45,7 +51,6 @@ span {
 
 .header_h1 {
     display: flex;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ffffff;
     -webkit-text-stroke: 0.5px black;
     display: flex;
@@ -59,7 +64,7 @@ span {
 .header-img {
     margin-top: 0.8rem;
     margin-left: 2rem;
-    max-height: 65%;
+    max-height: 60%;
     grid-column: 1;
 }
 .header_span {
@@ -145,7 +150,9 @@ span {
     align-items: center;
 }
 .employees_section_guy {
-    margin-left: 1rem;
+    width:95%;
+    padding-left: 1rem;
+    margin: 0 auto;
     background-color: orange;
 }
 
