@@ -83,7 +83,7 @@ span {
 }
 
 .header_span_a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     flex-direction: column;
     padding: 0 2rem;
     font-style: italic;
@@ -194,5 +194,11 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+}
+.games_section_game--rysi {
+    color: white;
+    grid-column: 2;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
 }
