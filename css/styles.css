@@ -163,6 +163,7 @@ span {
     background-color: orange;
     display: grid;
     grid-template-columns: 70%, 30%;
+
 }
 .games_section {
     background-color: var(--color-bg);
@@ -198,6 +199,27 @@ span {
 .games_section_game--rysi {
     color: white;
     grid-column: 2;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.games_section_game--left4dead {
+    color: white;
+    grid-column: 3;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.games_section_game--rust {
+    color: white;
+    grid-column: 4;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.games_section_game--clash_royale {
+    color: white;
+    grid-column: 5;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
