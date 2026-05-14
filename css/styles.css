@@ -47,6 +47,7 @@ p {
 
 span {
     /* тут ничего нету */
+    
 }
 
 .header {
@@ -149,6 +150,7 @@ span {
     min-width: 98%;
     background: var(--color-bg);
     height: 70rem;
+
 }
 
 .employees_section_h2 {
@@ -197,28 +199,28 @@ span {
     justify-content: center;
 }
 .games_section_game--rysi {
-    color: white;
+    color: red;
     grid-column: 2;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
 }
 .games_section_game--left4dead {
-    color: white;
+    color: blue;
     grid-column: 3;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
 }
 .games_section_game--rust {
-    color: white;
+    color: purple;
     grid-column: 4;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
 }
 .games_section_game--clash_royale {
-    color: white;
+    color:deeppink;
     grid-column: 5;
     display: flex;
     flex-wrap: wrap; 
