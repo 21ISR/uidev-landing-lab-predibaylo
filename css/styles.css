@@ -43,7 +43,9 @@ p {
     
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+a {
+    text-decoration: none;
+}
 
 span {
     /* тут ничего нету */
@@ -56,7 +58,7 @@ span {
     grid-template-columns: repeat(3, 33.3%);
 }
 
-.header_h1 {
+.header__h1 {
     display: flex;
     color: #ffffff;
     -webkit-text-stroke: 0.5px black;
@@ -68,13 +70,13 @@ span {
     margin: 0 auto;
     max-height: 12rem;
 }
-.header-img {
+.header__img {
     margin-top: 0.8rem;
     margin-left: 2rem;
     max-height: 60%;
     grid-column: 1;
 }
-.header_span {
+.header__span {
     display: flex;
     margin:0 auto;
     grid-column: 3;
@@ -83,56 +85,55 @@ span {
     max-height: 12rem;
 }
 
-.header_span_a {
+.header__span__a {
     font-size: 1.2rem;
     flex-direction: column;
     padding: 0 2rem;
     font-style: italic;
-    text-decoration: none;
     color: #289e3c;
 }
 
-.hero_section {
+.hero__section {
     background: var(--color-bg);
     min-width: 98%;
 }
 
-.hero_section_span {
+.hero__section__span {
     max-height: 50rem;
     display: grid;
     grid-template-columns: 66%, 33%;
 }
-.hero_section_h2 {
+.hero__section__h2 {
     margin: 1rem;
     margin-bottom: 0.5rem;
 }
 
-.hero_section_p {
+.hero__section__p {
     margin-left: 1rem;
 }
-.hero_section_img {
+.hero__section__img {
     margin-top: 0.8rem;
     margin-left: 2rem;
     max-width: 35%;
     grid-column: 2;
 }
-.card_section {
+.card__section {
     background: var(--color-bg);
     min-width: 98%;
     height: 20rem;
 }
 
-.card_section_h2 {
+.card__section__h2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card_section_div {
+.card__section__div {
     display: flex;
 }
 
-.card_section_card {
+.card__section__card {
     border-radius: 3%;
     min-width: 19%;
     background-color: red;
@@ -140,25 +141,25 @@ span {
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
 }
 
-.card_section_card_h3 {
+.card__section__card__h3 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.employees_section {
+.employees__section {
     min-width: 98%;
     background: var(--color-bg);
     height: 70rem;
 
 }
 
-.employees_section_h2 {
+.employees__section__h2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.employees_section_guy {
+.employees__section__guy {
     width:95%;
     padding-left: 1rem;
     margin: 0 auto;
@@ -167,69 +168,77 @@ span {
     grid-template-columns: 70%, 30%;
 
 }
-.games_section {
+.games__section {
     background-color: var(--color-bg);
     width: 98%;
 
 }
-.games_section_game {
+.games__section__game {
     display: grid;
     grid-template-columns: repeat(5, 20%);
 }
-.games_section_title_h2 {
+.games__section__title__h2 {
     display: flex;
     justify-content: center;
 }
 
-.games_section_game_h3 {
+.games__section__game__h3 {
     margin: 0 auto;
     justify-content: center;
     -webkit-text-stroke: 0.25px black;
     padding-bottom: 1rem;
 }
-.games_section_game_img {
+.games__section__game__img {
     align-items: center;
     justify-content: center;
 }
-.games_section_game--doka2 {
+.games__section__game--doka2 {
     color: white;
     grid-column: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.games_section_game--rysi {
+.games__section__game--rysi {
     color: red;
     grid-column: 2;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
 }
-.games_section_game--left4dead {
+.games__section__game--left4dead {
     color: blue;
     grid-column: 3;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
 }
-.games_section_game--rust {
+.games__section__game--rust {
     color: purple;
     grid-column: 4;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
 }
-.games_section_game--clash_royale {
+.games__section__game--clash__royale {
     color:deeppink;
     grid-column: 5;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
 }
+.footer {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    width: 100%;
+    
+}
 
 
-.footer-img {
+.footer__img {
     margin-top: 0.8rem;
     margin-left: 2rem;
-    max-height: 60%;
     grid-column: 1;
+    max-width: 70%;
+}
